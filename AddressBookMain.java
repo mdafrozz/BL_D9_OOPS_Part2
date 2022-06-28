@@ -3,7 +3,7 @@
  */
 package main;
 
-//import java.util.HashMap;
+
 import java.util.Scanner;
 /**
  * @author MD_AFROZ
@@ -15,12 +15,6 @@ public class AddressBookMain {
 		
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
-		//HashMap<String, AddressBook> services = new HashMap<>();
-		//System.out.println("*****Enter Unique Address Book Name*****");
-		//String addressBookNameAsKey = scanner.nextLine().toUpperCase();
-		//System.out.println(addressBookNameAsKey);
-		//AddressBook addressBookNameValue = new AddressBook();
-		//services.put(addressBookNameAsKey, addressBookNameValue);
 		AddressBook a = new AddressBook();
 		
 		boolean exit = false;

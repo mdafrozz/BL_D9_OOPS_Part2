@@ -4,7 +4,6 @@
 package main;
 
 import java.util.ArrayList;
-//import java.util.Iterator;
 import java.util.Scanner;
 import java.util.List;
 
@@ -48,10 +47,19 @@ public class AddressBook {
 					String zip = scanner.next();
 
 					listContact.add(new Contact(firstName, lastName, email, phoneNumber, address, state, city, zip));
-					//printContacts();
+					printContacts();
 		}
 			
-	
+	public Contact printContacts() {
+		if (listContact.isEmpty()) {
+			System.out.println("No Records!!!");
+		} else {
+			for (Contact contacts : listContact) {
+				System.out.println(contacts);
+			}
+		}
+		return con;
+	}
 
 
 }
